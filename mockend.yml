@@ -1,0 +1,8 @@
+models:
+  Content:
+    fake:
+      id: 10
+      status: { loremWords: [5, 20] }
+      image: { loremWords: [5, 20] }
+      url: { imageURL: [1920, 1080] }
+      created: { dateTime: [2010-01-01T00:00:00Z, 2020-12-31T23:59:59Z] }
