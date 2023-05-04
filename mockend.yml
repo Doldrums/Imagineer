@@ -1,7 +1,7 @@
 models:
   Content:
     fake:
-      id: 10
+      _count: 10
       status: { loremWords: [5, 20] }
       image: { loremWords: [5, 20] }
       url: { imageURL: [1920, 1080] }
